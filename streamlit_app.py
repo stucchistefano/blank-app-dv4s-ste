@@ -10,7 +10,7 @@ st.write(
 )
 
 # Data
-value = st.slider("Select a specific value: ", 0, 100, 30)
+value = st.slider("Select a specific value: ", 0, 100, 40)
 # The values are in order the minimum, the maximum and the actual value of the slider
 
 # To write the value of the slider (at screen)
