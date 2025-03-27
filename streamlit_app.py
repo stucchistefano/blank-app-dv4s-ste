@@ -1,6 +1,12 @@
 import streamlit as st
 # We need to import the streamlit library as first
 
+st.set_page_config(
+    page_title="My application for DV4S",
+    layout="wide",
+    initial_sidebar_state="expanded" # So it is open the menu
+)
+
 # Title
 st.title("🎈 My new app")
 
